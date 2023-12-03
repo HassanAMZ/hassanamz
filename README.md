@@ -1,5 +1,5 @@
 
-[![Shahzada Ali Hassan](https://shahzadaalihassan.com/static/images/social-sharing.png)](https://shahzadaalihassan.com/)
+[![Shahzada Ali Hassan](https://shahzadaalihassan.com/images/social-sharing.png)](https://shahzadaalihassan.com/)
 
 
 Here are some ideas to get you started:
