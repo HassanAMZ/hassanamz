@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Shahzada Ali Hassan  -  closed-loop conversion tracking</title>
+  <desc id="desc">A control loop: ad set, site, conversion, and server-side CAPI feeding the optimizer on a restricted domain.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1b2230" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" rx="18" fill="#090b10"/>
+  <rect width="1200" height="380" rx="18" fill="url(#grid)" opacity="0.55"/>
+  <rect x="1" y="1" width="1198" height="378" rx="17" fill="none" stroke="#2a3346" stroke-width="1.5"/>
+
+  <!-- top instrument strip -->
+  <rect x="1" y="1" width="1198" height="42" rx="17" fill="#0e121a"/>
+  <rect x="1" y="26" width="1198" height="17" fill="#0e121a"/>
+  <text x="28" y="27" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="0.22em">CLOSED LOOP</text>
+  <text x="168" y="27" fill="#4d6fff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="0.18em">CRISPER.IO</text>
+  <circle cx="1088" cy="21" r="5" fill="#d4894a"/>
+  <text x="1102" y="25" fill="#d4894a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.12em">RESTRICTED</text>
+  <circle cx="980" cy="21" r="5" fill="#4d6fff">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="994" y="25" fill="#9eb0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.12em">LIVE</text>
+
+  <!-- identity -->
+  <text x="36" y="118" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="0.28em">FOUNDER  ·  NWPU CONTROL</text>
+  <text x="36" y="172" fill="#f2f4f8" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="44" font-weight="700">Shahzada Ali Hassan</text>
+  <text x="36" y="212" fill="#b7c0d0" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18">I recover Lead and Schedule on Meta-restricted domains.</text>
+  <text x="36" y="238" fill="#b7c0d0" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18">Same host. Server-side loop. Optimizer fed again.</text>
+
+  <!-- recovered signal -->
+  <text x="36" y="292" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.16em">PIXEL</text>
+  <text x="268" y="292" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.16em">CAPI</text>
+  <path d="M36 318 C70 318 78 338 110 318 C142 298 148 344 186 322 C214 306 220 318 248 318" fill="none" stroke="#d4894a" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 7" opacity="0.85"/>
+  <path d="M248 318 C290 318 300 300 340 300 C390 300 400 318 488 318" fill="none" stroke="#4d6fff" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="488" cy="318" r="4" fill="#4d6fff"/>
+
+  <!-- loop -->
+  <g transform="translate(560,56)">
+    <path id="loop" d="M 86 52 H 430 C 486 52 518 84 518 140 V 188 C 518 244 486 276 430 276 H 86 C 30 276 -2 244 -2 188 V 140 C -2 84 30 52 86 52 Z" fill="none" stroke="#2f3b55" stroke-width="2"/>
+    <path d="M 86 52 H 430 C 486 52 518 84 518 140 V 188 C 518 244 486 276 430 276 H 86 C 30 276 -2 244 -2 188 V 140 C -2 84 30 52 86 52 Z" fill="none" stroke="#4d6fff" stroke-width="2.25" stroke-dasharray="14 18" stroke-linecap="round" opacity="0.95">
+      <animate attributeName="stroke-dashoffset" values="0;-128" dur="4.5s" repeatCount="indefinite"/>
+    </path>
+    <circle r="5" fill="#f2f4f8" filter="url(#glow)">
+      <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#loop"/>
+      </animateMotion>
+    </circle>
+    <polygon points="300,46 318,52 300,58" fill="#4d6fff"/>
+    <polygon points="512,156 518,174 524,156" fill="#4d6fff"/>
+    <polygon points="216,270 198,276 216,282" fill="#4d6fff"/>
+    <polygon points="4,176 -2,158 10,176" fill="#4d6fff"/>
+    <text x="258" y="158" text-anchor="middle" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0.22em">CONTROLLER</text>
+    <text x="258" y="180" text-anchor="middle" fill="#eef1f6" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="600">Optimize</text>
+
+    <g>
+      <rect x="24" y="28" width="132" height="48" rx="8" fill="#121722" stroke="#4d6fff"/>
+      <text x="90" y="48" text-anchor="middle" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="0.18em">ACTUATOR</text>
+      <text x="90" y="66" text-anchor="middle" fill="#eef1f6" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600">Ad set</text>
+    </g>
+    <g>
+      <rect x="368" y="28" width="132" height="48" rx="8" fill="#121722" stroke="#3d4b66"/>
+      <text x="434" y="48" text-anchor="middle" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="0.18em">PLANT</text>
+      <text x="434" y="66" text-anchor="middle" fill="#eef1f6" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600">Site</text>
+    </g>
+    <g>
+      <rect x="368" y="252" width="132" height="48" rx="8" fill="#121722" stroke="#3d4b66"/>
+      <text x="434" y="272" text-anchor="middle" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="0.18em">OUTPUT</text>
+      <text x="434" y="290" text-anchor="middle" fill="#eef1f6" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600">Lead</text>
+    </g>
+    <g>
+      <rect x="24" y="252" width="132" height="48" rx="8" fill="#121722" stroke="#4d6fff"/>
+      <text x="90" y="272" text-anchor="middle" fill="#8b93a7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="0.18em">SENSOR</text>
+      <text x="90" y="290" text-anchor="middle" fill="#eef1f6" font-family="Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600">CAPI</text>
+    </g>
+  </g>
+</svg>
