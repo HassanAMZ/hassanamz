@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Shahzada Ali Hassan — closed-loop conversion tracking for restricted domains" src="assets/header-light.svg" width="1200">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/closed-loop-dark.svg">
+  <img alt="Shahzada Ali Hassan — closed-loop conversion tracking for restricted domains" src="assets/closed-loop-light.svg" width="1200">
 </picture>
 
 I build **[Crisper](https://crisper.io)**: server-side conversion tracking that puts Lead and Schedule back on the **same restricted domain**. No redirect landing page. No pixel reset. The plant still converts; the optimizer just couldn't see it.
